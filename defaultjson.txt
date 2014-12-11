@@ -1,0 +1,1 @@
+{"topics": {"personal-plan": {"y": 1.5, "x": 4, "standalone_title": "Together on Asthma", "id": "personal-plan", "icon_url": "/images/power-mode/badges/default-40x40.png"}}}
