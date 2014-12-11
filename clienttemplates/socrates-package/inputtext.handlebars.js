@@ -1,0 +1,1 @@
+(function(){var a=Handlebars.template,b=Handlebars.templates=Handlebars.templates||{};b["socrates-package_inputtext"]=a(function(a,b,c,d,e){c=c||a.helpers;var f="",g,h,i="function",j=this.escapeExpression;return f+='<input type="text" placeholder="',h=c.placeholder,h?g=h.call(b,{hash:{}}):(g=b.placeholder,g=typeof g===i?g():g),f+=j(g)+'" disabled="disabled"></input>\n',f})})()

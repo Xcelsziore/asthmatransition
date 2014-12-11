@@ -1,0 +1,1 @@
+(function(){var a=Handlebars.template,b=Handlebars.templates=Handlebars.templates||{};b["profile-package_no-coaches"]=a(function(a,b,c,d,e){return c=c||a.helpers,"<p>You have no coaches! Why not try adding one?</p>\n"})})()

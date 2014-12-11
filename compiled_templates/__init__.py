@@ -1,0 +1,28 @@
+from handlebars import handlebars_template
+
+handlebars_partials = {
+    "profile_user-card": lambda params, partials=None, helpers=None: handlebars_template("profile", "user_card", params),
+    "profile_badge-display-case": lambda params, partials=None, helpers=None: handlebars_template("profile", "badge_display_case", params),
+    "profile_suggested-activity": lambda params, partials=None, helpers=None: handlebars_template("profile", "suggested_activity", params),
+    "profile_profile": lambda params, partials=None, helpers=None: handlebars_template("profile", "profile", params),
+    "profile_vital-statistics": lambda params, partials=None, helpers=None: handlebars_template("profile", "vital_statistics", params),
+    "profile_recent-activity-list": lambda params, partials=None, helpers=None: handlebars_template("profile", "recent_activity_list", params),
+    "homepage_videolist": lambda params, partials=None, helpers=None: handlebars_template("homepage", "videolist", params),
+    "video_video-description": lambda params, partials=None, helpers=None: handlebars_template("video", "video_description", params),
+    "video_video-footer": lambda params, partials=None, helpers=None: handlebars_template("video", "video_footer", params),
+    "video_video-header": lambda params, partials=None, helpers=None: handlebars_template("video", "video_header", params),
+    "video_video-nav": lambda params, partials=None, helpers=None: handlebars_template("video", "video_nav", params),
+    "shared_goalbook-row": lambda params, partials=None, helpers=None: handlebars_template("shared", "goalbook_row", params),
+    "shared_goal-objectives": lambda params, partials=None, helpers=None: handlebars_template("shared", "goal_objectives", params),
+    "shared_goal-new": lambda params, partials=None, helpers=None: handlebars_template("shared", "goal_new", params),
+    "shared_knowledgemap-exercise": lambda params, partials=None, helpers=None: handlebars_template("shared", "knowledgemap_exercise", params),
+    "shared_goal-new-custom-dialog": lambda params, partials=None, helpers=None: handlebars_template("shared", "goal_new_custom_dialog", params),
+    "shared_goal-summary-area": lambda params, partials=None, helpers=None: handlebars_template("shared", "goal_summary_area", params),
+    "shared_goalbook": lambda params, partials=None, helpers=None: handlebars_template("shared", "goalbook", params),
+    "shared_small-exercise-icon": lambda params, partials=None, helpers=None: handlebars_template("shared", "small_exercise_icon", params),
+    "shared_goal-new-dialog": lambda params, partials=None, helpers=None: handlebars_template("shared", "goal_new_dialog", params),
+    "shared_skill-bar": lambda params, partials=None, helpers=None: handlebars_template("shared", "skill_bar", params),
+    "topic_root-topic-view": lambda params, partials=None, helpers=None: handlebars_template("topic", "root_topic_view", params),
+    "topic_subtopic-nav": lambda params, partials=None, helpers=None: handlebars_template("topic", "subtopic_nav", params),
+    "topic_content-topic-videos": lambda params, partials=None, helpers=None: handlebars_template("topic", "content_topic_videos", params),
+}
